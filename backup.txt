@@ -1,3 +1,43 @@
+100
+    divq %rsp,%r8
+    divq %rsp,%r8
+    rmmovq %r8, (%r8)
+    addq %r8,%rdx
+    mrmovq (%r8), %r8
+    popq %r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+
+86
+    divq %rsp,%r8
+    divq %rsp,%r8
+    rmmovq %r8, (%r8)
+    addq %rsp,%r8
+    mrmovq (%rdi), %r8
+    popq %r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+
 81 points
     divq %rsp,%r8
     mrmovq (%rdi), %r8

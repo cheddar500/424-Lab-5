@@ -20,12 +20,11 @@
     irmovq Stack,%rsp
 # The 18 instructions you can modify start here
     divq %rsp,%r8
+    divq %rsp,%r8
     rmmovq %r8, (%r8)
-    addq %rsp,%r8
-    divq %rsp,%r8
-    mrmovq (%rdi), %r8
-    divq %rsp,%r8
-    divq %rsp,%r8
+    addq %r8,%rdx
+    mrmovq (%r8), %r8
+    popq %r8
     divq %rsp,%r8
     divq %rsp,%r8
     divq %rsp,%r8
@@ -37,6 +36,8 @@
     divq %rsp,%r8
     divq %rsp,%r8
     divq %rsp,%r8
+    divq %rsp,%r8
+    
 # The 18 instructions you can modify end here
     halt
     .pos 0x200
