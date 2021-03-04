@@ -1,0 +1,19 @@
+81 points
+    divq %rsp,%r8
+    mrmovq (%rdi), %r8
+    addq %rsp,%r8
+    rmmovq %r8, (%rsi)
+    mrmovq (%rdi), %r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
+    divq %rsp,%r8
