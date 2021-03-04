@@ -21,8 +21,8 @@
                             | # The 18 instructions you can modify start here
 0x00a: 6548                 |     divq %rsp,%r8
 0x00c: 6548                 |     divq %rsp,%r8
-0x00e: 40880000000000000000 |     rmmovq %r8, (%r8)
-0x018: 6082                 |     addq %r8,%rdx
+0x00e: 608e                 |     addq %r8,%r14
+0x010: 40880000000000000000 |     rmmovq %r8, (%r8)
 0x01a: 50880000000000000000 |     mrmovq (%r8), %r8
 0x024: b08f                 |     popq %r8
 0x026: 6548                 |     divq %rsp,%r8

@@ -21,8 +21,8 @@
 # The 18 instructions you can modify start here
     divq %rsp,%r8
     divq %rsp,%r8
+    addq %r8,%r14
     rmmovq %r8, (%r8)
-    addq %r8,%rdx
     mrmovq (%r8), %r8
     popq %r8
     divq %rsp,%r8
